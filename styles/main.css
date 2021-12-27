@@ -12,6 +12,7 @@
 body{
   background: var(--black);
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 header .container {
@@ -42,4 +43,29 @@ header nav a:hover {
   color: #fff;
 }
 
-/* parte 4 do video */
+
+.main-movie {
+  font-size: 1rem;
+  height: 600px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url("../img/banner.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .container {
+  margin-left: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.main-movie .description {
+  margin-bottom: 4rem;
+}
+
+/*Próxima Aula 5*/
