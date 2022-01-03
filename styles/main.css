@@ -91,9 +91,17 @@ header nav a:hover {
   width: 60%;
 }
 
+.carousel-movies{
+  margin-top: 1rem;
+}
+
 .movie-box {
-  height: 100%;
+  cursor: pointer;
   width: 100%;
   display: block;
-  
+}
+
+.item:hover {
+  transition: .4s;
+  transform: scale(1.1);
 }
